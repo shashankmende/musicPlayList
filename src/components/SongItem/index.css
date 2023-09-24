@@ -1,0 +1,33 @@
+.song-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.track-img {
+  width: 200px;
+  margin-right: 20px;
+}
+.image-heading-container {
+  display: flex;
+  flex-direction: row;
+}
+.name-container {
+}
+.name {
+  font-family: 'Roboto';
+  color: white;
+}
+.genre {
+  color: #3b82f6;
+  font-family: 'Roboto';
+}
+.duration-delete-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+}
